@@ -1,18 +1,18 @@
 package com.bairanalytics.support;
 
+/**
+ * Created by Sean on 4/3/2015.
+ */
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.ui.ModelMap;
 
-/**
- * Created by Sean on 4/3/2015.
- */
-
 
 @Controller
-@RequestMapping("/")
+@RequestMapping({"/","/homepage","/index","/home","/view","/default","/main","/login","/admin"})
 public class AgencyController {
 
     public AgencyController(){
@@ -40,5 +40,13 @@ public class AgencyController {
         }
         return "view";
     }
+
+    @RequestMapping(method = RequestMethod.GET)
+    public String getLogin() {
+        return "login/login";
+    }
+
+
+
 }
 
