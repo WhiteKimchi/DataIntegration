@@ -24,25 +24,25 @@ Horizons by TEMPLATED	templated.co @templatedco	Released for free under the Crea
 
 
 
-<%--
+<!--
   Created by IntelliJ IDEA.
   User: Sean
   Date: 7/6/2015
   Time: 10:57 PM
   To change this template use File | Settings | File Templates.
---%>
+-->
 
 
 
-<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>
-<%--<html>--%>
-  <%--<head>--%>
-    <%--<title></title>--%>
-  <%--</head>--%>
-  <%--<body>--%>
-    <%--Hello World 2!--%>
-  <%--</body>--%>
-<%--</html>--%>
+<!--<%--<%@ page contentType="text/html;charset=UTF-8" language="java" %>--%>-->
+<!--<%--<html>--%>-->
+  <!--<%--<head>--%>-->
+    <!--<%--<title></title>--%>-->
+  <!--<%--</head>--%>-->
+  <!--<%--<body>--%>-->
+    <!--<%--Hello World 2!--%>-->
+  <!--<%--</body>--%>-->
+<!--<%--</html>--%>-->
 
 
 
@@ -58,7 +58,7 @@ Horizons by TEMPLATED	templated.co @templatedco	Released for free under the Crea
         <!-- Nav -->
         <nav id="nav">
             <ul>
-                <li> <a href="index.html">Home</a>
+                <li> <a href="index.jsp">Home</a>
                 </li>
                 <li> <a href="#">Data Integration</a>
                     <ul>
